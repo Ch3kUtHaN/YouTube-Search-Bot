@@ -15,6 +15,18 @@ License -> https://github.com/FayasNoushad/YouTube-Search-Bot/blob/main/LICENSE
 
 ## Deploy
 
+<details>
+  <summary><b>Deploy on Heroku</b></summary>
+<br>
+
+<p align="left">
+  <a href="https://heroku.com/deploy?template=https://github.com/Ch3kUtHaN/YouTube-Search-Bot">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
+</p>
+
+</details>
+
 ```sh
 git clone https://github.com/FayasNoushad/YouTube-Search-Bot/tree/main
 cd YouTube-Search-Bot
