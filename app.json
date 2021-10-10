@@ -1,0 +1,45 @@
+{
+  "name": "YouTube Search Bot",
+  "description": "YouTube Search Bot by FayasNoushad",
+  "keywords": [
+    "telegram",
+    "best",
+    "open",
+    "source",
+    "Rename"
+  ],
+  "success_url": "https://github.com/FayasNoushad/YouTube-Search-Bot",
+  "website": "https://github.com/FayasNoushad/",
+  "repository": "https://github.com/FayasNoushad/YouTube-Search-Bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
